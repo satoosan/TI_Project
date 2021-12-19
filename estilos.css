@@ -47,7 +47,7 @@
 /* Conteudo Principal */
 .conteudo-principal{
     display: inline-block;
-    background: #CCC;
+    background: rgb(236, 236, 236);
     margin-top: 25px;
     margin-left: 50px;
     padding: 20px 5px;
@@ -56,9 +56,21 @@
     text-align: center;
 }
 
+.secao{
+    margin: 10px;
+    padding: 5px 10px;
+}
+
+hr{
+    width: 100%;
+    border: 5px solid;
+    border-color: #000 #ccc #000 #ccc;
+}
+
 .conteudo-principal .titulo{
     padding: 10px;
     font-size: 1.5rem;
+    text-transform: capitalize;
 }
 
 .img-lampada{
@@ -88,7 +100,8 @@
     width: 30%;
     margin-top: 25px;
     margin-right: 25px;
-    border: 2px solid rgb(0, 0, 0);
+    border: 2px solid;
+    border-color: #000 #ccc #000 #ccc;
 }
 
 .titulo-postagens{
@@ -101,8 +114,8 @@
 .texto-postagens{
     font: .2rem;
     padding: 10px 10px;
-    border: 1px solid rgb(0, 0, 0);
-    border-radius: 10px;
+    border: 1px solid;
+    border-color: #000 #fff #000 #fff;
 }
 /* Fim Postagens */
 
