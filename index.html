@@ -4,46 +4,90 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>TI Project</title>
+
+        <!-- Bootstrap 5 -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+        
         <link rel="stylesheet" href="css/estilos.css">
     </head>
     <body>
 
-        <header class="cabecalho">
-            <h1 class="titulo">TI Project</h1>
-
-            <nav class="menu-bar">
-                <ul class="lista-menu">
-                    <li class="lista"><a href="index.html">Home</a></li>
-                    <li class="lista"><a href="about.html">About</a></li>
-                    <li class="lista"><a href="service.html">Service</a></li>
-                    <li class="lista"><a href="contact.html">Contact</a></li>
-                </ul>
+        <!-- Menu -->
+        <div class="container-fluid p-3 bg-dark">
+            <h1 class="text-light text-center">TI Project</h1>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                        <ul class="navbar-nav fs-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="service.html">Service</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
-        </header>
+        </div>
 
-        <main class="conteudo-principal">
-            <section class="secao">
-                <h2 class="titulo">Lorem Ipsum</h2>
-                <img src="img/pessoa.jpg" alt="Lampadas Inteligentes" class="img-lampada">
-                <p class="texto-principal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos unde molestiae quos. Officiis exercitationem repudiandae perspiciatis iure inventore, atque quo temporibus esse doloremque consequuntur? Harum vitae obcaecati dolorem cupiditate exercitationem!</p>
-            </section>
-            <hr>
-            <section class="secao">
-                <h2 class="titulo">Lorem Ipsum</h2>
-                <img src="img/codigos.jpg" alt="Lampadas Inteligentes" class="img-lampada">
-                <p class="texto-principal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, fugit. Dolores eius, inventore rem iusto rerum eveniet dolore sequi delectus cumque accusantium unde! Dolorem vitae dolore, accusantium blanditiis quibusdam veritatis.</p>
-            </section>
-        </main>
+        
+        <!-- Conteudo Principal -->
+        <div class="container">
+            <div class="row">
+                    <div class="col-12 col-sm-6 mt-5">
+                        <div class="container bg-light">
+                            <div class="col-12 col-sm-12">
+                                <h3 class="text-dark text-center p-3">
+                                    Lorem Ipsum
+                                </h3>
+                                <img src="img/pessoa.jpg" class="w-100 rounded">
+                                <p class="text-dark p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos unde molestiae quos. Officiis exercitationem repudiandae perspiciatis iure inventore, atque quo temporibus esse doloremque consequuntur? Harum vitae obcaecati dolorem cupiditate exercitationem!</p>
+                            </div>
+                            <hr>
+                            <div class="col-12 col-sm-12">
+                                <h3 class="text-dark text-center p-3">
+                                    Lorem Ipsum
+                                </h3>
+                                <img src="img/codigos.jpg" class="w-100 rounded">
+                                <p class="text-dark p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos unde molestiae quos. Officiis exercitationem repudiandae perspiciatis iure inventore, atque quo temporibus esse doloremque consequuntur? Harum vitae obcaecati dolorem cupiditate exercitationem!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 mt-5 mx-auto">
+                        <div class="containerd bg-light w-75 p-3 mx-auto">
+                            <div class="col-12 col-sm-12 w-100">
+                                <h3 class="text-center text-dark">Postagens Recentes</h3><hr>
+                                <p class="fw-5 p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic eligendi voluptatibus quae adipisci distinctio?</p><hr>
+                                <p class="fw-5 p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic eligendi voluptatibus quae adipisci distinctio?</p><hr>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
 
-        <aside class="postagens">
-            <h3 class="titulo-postagens">Postagem Recentes</h3>
-            <p class="texto-postagens">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic eligendi voluptatibus quae adipisci distinctio? Vitae modi omnis dolores porro ad soluta quaerat natus atque eum fugiat dolorum, doloremque dignissimos perferendis.</p>
-            <p class="texto-postagens">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic eligendi voluptatibus quae adipisci distinctio? Vitae modi omnis dolores porro ad soluta quaerat natus atque eum fugiat dolorum, doloremque dignissimos perferendis.</p>
-        </aside>
-
-        <footer class="rodape">
-            <p class="texto-rodape">&copy; Todos os direitos reservados</p>
-        </footer>
-
+        <footer class="bg-dark text-center text-light mt-5">
+            <!-- Copyright -->
+            <div class="text-center p-4">
+              <p class="fw-bolder fs-5 text-uppercase">satoosan</p>
+              <a href="https://github.com/satoosan" class="link pe-1 ps-1"><i class="fab fa-github-alt icon"></i></a>
+              <a href="https://www.linkedin.com/in/guisato565/" class="link  pe-1 ps-1"><i class="fab fa-linkedin"></i></a> 
+              <a href="https://codepen.io/guisato565" class="link  pe-1 ps-1"><i class="fab fa-codepen"></i></a>
+            </div>
+            <!-- Copyright -->
+          </footer>
     </body>
 </html>
