@@ -15,5 +15,6 @@
 <p>Foi utilizado o Plugin EMMET, no VS Code, os ícones pego foi no site Flaticon. O template, foi inspirado no TI Project antigo.</p>
 
 <h2>Acesse o Site por aqui</h2>
-<p>Sem responsividade!</p>
 Site: <a href="https://satoosan.github.io/TI_Project/">TI Project</a>
+
+Site Antigo <a href="http://tiproject2.atwebpages.com">TI Project Antigo</a>
